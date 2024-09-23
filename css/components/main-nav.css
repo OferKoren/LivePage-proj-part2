@@ -1,0 +1,25 @@
+.main-nav-list li a {
+    font-family: 'Lato';
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: var(--clr-nav);
+}
+.main-nav-list li {
+    border: 1px solid var(--clr-nav-item-border);
+}
+.main-nav-list li a {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: box-shadow 0.4s;
+}
+.main-nav-list li a:hover {
+    box-shadow: inset 0px -6px 0px var(--clr-nav-focus);
+}
+
+.main-nav-list li a.checked {
+    box-shadow: inset 0px -6px 0px var(--clr-nav-focus);
+    color: var(--clr-nav-focus);
+}

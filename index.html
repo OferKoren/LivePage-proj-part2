@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/styles.css" />
+        <title>Blogin.</title>
+        <!-- font awesome -->
+        <script src="https://kit.fontawesome.com/301daa808d.js" crossorigin="anonymous"></script>
+        <!-- animation lib -->
+        <link rel="stylesheet" href="css/lib/animate.css" />
+    </head>
+
+    <body class="main-layout">
+        <header class="full main-header main-layout">
+            <div class="header-content flex space-between">
+                <div class="logo">
+                    blogin
+                    <span>.</span>
+                </div>
+
+                <nav class="main-nav">
+                    <ul class="flex main-nav-list clean-list">
+                        <li><a href="#" class="checked">Journal</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Work</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+
+                <button class="btn btn-hamburger" onclick="onMainNavToggle(this)">
+                    <div>
+                        <div class="line line1"></div>
+                        <div class="line line2"></div>
+                        <div class="line line3"></div>
+                    </div>
+                </button>
+            </div>
+        </header>
+        <main class="cards-layout main-content">
+            <section class="card">
+                <img src="img/1.png" alt="" />
+                <div class="card-content">
+                    <h2>Duis aute irure dolor in henderit in voluptate.</h2>
+                    <p>
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commo doconsequat, sunt in culpa qui
+                        officia deserunt mollit anim id est laborum.
+                    </p>
+                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur...</p>
+                    <button class="btn card-btn rounded arrow">Continue Reading</button>
+                </div>
+            </section>
+
+            <section class="card">
+                <img src="img/2.png" alt="" />
+                <div class="card-content">
+                    <h2>Duis aute irure dolor in henderit in voluptate.</h2>
+                    <p>
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commo doconsequat, sunt in culpa qui
+                        officia deserunt mollit anim id est laborum.
+                    </p>
+                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur...</p>
+                    <button class="btn card-btn rounded arrow">Continue Reading</button>
+                </div>
+            </section>
+
+            <section class="card">
+                <img src="img/3.png" alt="" />
+                <div class="card-content">
+                    <h2>Duis aute irure dolor in henderit in voluptate.</h2>
+                    <p>
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commo doconsequat, sunt in culpa qui
+                        officia deserunt mollit anim id est laborum.
+                    </p>
+                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur...</p>
+                    <button class="btn card-btn rounded arrow">Continue Reading</button>
+                </div>
+            </section>
+        </main>
+        <nav class="pagination flex space-between">
+            <a href="" class="previous">previous</a>
+            <a href="" class="next">next</a>
+        </nav>
+        <footer class="full main-footer flex flex-direction-column center">
+            <div class="logo">
+                blogin
+                <span>.</span>
+            </div>
+
+            <div>© 2014 Blogin.com - All Rights Reserved - Find more free Templates at Pixelhint.com</div>
+
+            <div class="socials flex">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-behance"></i>
+                <i class="fa-solid fa-basketball"></i>
+            </div>
+        </footer>
+        <script src="js/controllers/main.controller.js"></script>
+    </body>
+</html>

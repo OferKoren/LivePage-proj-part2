@@ -1,0 +1,7 @@
+.main-header {
+    background-color: var(--clr-header);
+    box-shadow: inset 0px -6px 0px rgb(30, 30, 30);
+}
+.main-header .header-content {
+    align-items: center;
+}

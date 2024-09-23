@@ -1,0 +1,63 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+html {
+    font-family: 'Lato';
+}
+body {
+    margin: 0;
+}
+img {
+    width: 100%;
+}
+h1 {
+    font-family: 'euro';
+}
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+button {
+    margin: 0;
+}
+a {
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+}
+
+/* buttons */
+.btn {
+    font-family: 'Lato';
+    font-weight: 700;
+    color: var(--clr-card-button);
+    background-color: white;
+    border: 2px solid var(--clr-card-button);
+    padding: 0.9em 1.625em;
+    transition: padding 0.4s;
+    position: relative;
+    cursor: pointer;
+}
+.btn:not(.btn-hamburger):hover {
+    color: var(--clr-card-button-focus);
+    border-color: var(--clr-card-button-focus);
+    padding-inline-end: 2.5em;
+}
+.btn.rounded {
+    border-radius: 2em;
+}
+.btn.arrow:hover::after {
+    content: '→';
+    position: absolute;
+    right: 0.875em;
+}
+.btn-hamburger {
+    background-color: transparent;
+    width: 25px;
+    padding: 0;
+    border: none;
+}

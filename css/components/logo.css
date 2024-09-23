@@ -1,0 +1,11 @@
+.logo {
+    font-size: 2.5em;
+    font-family: 'euro';
+    color: white;
+    letter-spacing: -1px;
+
+    display: flex;
+}
+.logo span {
+    color: var(--clr-nav-focus);
+}
